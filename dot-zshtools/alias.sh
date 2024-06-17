@@ -1,7 +1,7 @@
 # Aliases
 alias ls='ls --color'
 alias ll='ls --color -lah'
-# alias vim='nvim'
+alias vim='nvim'
 # alias c='clear'
 
 function color {
