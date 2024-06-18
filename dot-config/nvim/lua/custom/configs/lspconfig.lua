@@ -8,7 +8,10 @@ local root_pattern = lspconfig.util.root_pattern
 
 lspconfig.clangd.setup {
   on_init = on_init,
-  on_attach = on_attach,
+  on_attach = function(client, bufnr)
+    -- client.server_capabilities.signatureHelpProvider = false
+    on_attach(client, bufnr)
+  end,
   capabilities = capabilities,
   filetypes = { "c", "h", "cpp", "cc", "hpp", ".m", ".mm" },
   single_file_support = true,
