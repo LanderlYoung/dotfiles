@@ -12,7 +12,7 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "clangd",
+        -- "clangd", -- clangd is large, install it using native package manager
         "codelldb"
       }
     },

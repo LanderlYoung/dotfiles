@@ -2,7 +2,7 @@
 --
 require("auto-session").setup {
   -- log_level = "error",
-  log_level = "info",
+  log_level = "error",
   auto_session_suppress_dirs = {
     "~/", "~/Documents", "~/Desktop/", "~/Downloads", "/",
   },
