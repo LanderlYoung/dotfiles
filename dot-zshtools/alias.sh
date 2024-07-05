@@ -17,7 +17,7 @@ alias lc='colorls'
 if [[ $(uname) == "Darwin" ]]; then
   alias open='open'
   alias clipcopy='pbcopy'
-  alias clippast='pbpast'
+  alias clippast='pbpaste'
 
   # apps
   alias vs='open -a Visual\ Studio\ Code'
