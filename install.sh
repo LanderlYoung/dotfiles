@@ -8,4 +8,4 @@
 
 echo depedencies: stow zoxide fzf
 
-stow --dotfiles --target=$HOME .
+stow --dotfiles --ignore=install.sh --target=$HOME .
