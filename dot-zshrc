@@ -88,7 +88,7 @@ if [[ -d "${HOME}/.zshtools" ]]; then
     done
 fi
 
-#add machine depend configs
+# add machine depend configs
 if [[ -e "${HOME}/.zshmd" ]];then
     source "${HOME}/.zshmd"
 fi
