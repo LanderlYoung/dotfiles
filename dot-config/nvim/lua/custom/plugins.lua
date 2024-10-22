@@ -18,6 +18,18 @@ local plugins = {
     },
   },
   {
+    -- telescope.nvim is a highly extendable fuzzy finder over lists.
+    'nvim-telescope/telescope.nvim',
+    lazy = true,
+    -- tag = '0.1.8',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+    config = function()
+      require("custom.configs.telescope")
+    end,
+  },
+  {
     -- Debug Adapter Protocol
     "mfussenegger/nvim-dap",
     config = function(_, _)
