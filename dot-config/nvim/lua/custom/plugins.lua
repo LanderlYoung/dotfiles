@@ -72,11 +72,11 @@ local plugins = {
       require "custom.configs.autosession"
     end
   },
-  {
-    'mrcjkb/rustaceanvim',
-    version = '^5', -- Recommended
-    lazy = false, -- This plugin is already lazy
-  },
+--  {
+    --'mrcjkb/rustaceanvim',
+    --version = '^5', -- Recommended
+    --lazy = false, -- This plugin is already lazy
+  --},
 }
 
 return plugins

@@ -25,3 +25,13 @@ lspconfig.clangd.setup {
     'configure.ac'
   )
 }
+
+lspconfig.rust_analyzer.setup {
+  settings = {
+    ['rust-analyzer'] = {
+      diagnotics = {
+        enable = true;
+      }
+    }
+  }
+}
