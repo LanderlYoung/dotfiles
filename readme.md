@@ -25,8 +25,8 @@ see mappings.lua#telescope
 see mappings.lua#dap
 
 ## install
-mac OS/Linux: git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-Windows: git clone -b v2.0 https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+- mac OS/Linux: `git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim`
+- Windows: `git clone -b v2.0 https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim`
 
 ## NvimTree navigation
 https://docs.rockylinux.org/zh/books/nvchad/nvchad_ui/nvimtree/
