@@ -22,6 +22,7 @@ if [ ! -d "$ZINIT_HOME" ]; then
 fi
 
 # Source/Load zinit
+# tips: `zinit update` to download all plugins
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Add in Powerlevel10k
@@ -79,6 +80,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(thefuck --alias)"
 
 ###########################################################
 

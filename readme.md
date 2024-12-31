@@ -1,6 +1,8 @@
 # zsh config
 refer to [youtube](https://www.youtube.com/watch?v=ud7YxC33Z3w&t=693s)
 
+tips: `zinit update` to auto install plugins
+
 # neovim
 config refer to [youtube](https://www.youtube.com/watch?v=Mtgo-nP_r8Y&t=538s)
 
